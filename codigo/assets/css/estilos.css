@@ -1,0 +1,25 @@
+.todos {
+  box-sizing: border-box;
+  border: 1px solid black;
+  margin: 1px 1px 1px 1px; }
+
+.contenedor {
+  overflow: hidden; }
+  .contenedor .primera {
+    height: 100px;
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%; }
+    .contenedor .primera .uno {
+      background-color: gray;
+      height: 100%;
+      margin-right: 5px; }
+    .contenedor .primera .dos {
+      background-color: gray;
+      height: 100%;
+      margin-right: 5px;
+      margin-left: 5px; }
+    .contenedor .primera .tres {
+      background-color: gray;
+      height: 100%;
+      margin-left: 5px; }

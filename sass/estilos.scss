@@ -1,0 +1,35 @@
+$color: gray;
+$margen-primera: 1px;
+$margen: 5px;
+
+.todos{
+	box-sizing: border-box;
+	border: 1px solid black;
+	margin: $margen-primera $margen-primera $margen-primera $margen-primera;
+}
+
+.contenedor{
+	overflow: hidden;
+	.primera{
+		height: 100px;
+		float: left;
+		box-sizing: border-box;
+		width: 33.33%;
+	.uno{
+		background-color: $color;
+		height: 100%;
+		margin-right: $margen;
+	}
+	.dos{
+		background-color: $color;
+		height: 100%;
+		margin-right: $margen;
+		margin-left: $margen;
+	}
+	.tres{
+		background-color: $color;
+		height: 100%;
+		margin-left: $margen;
+	}
+	}
+}
