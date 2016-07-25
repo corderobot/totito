@@ -16,7 +16,9 @@
     box-sizing: border-box;
     float: left;
     height: 150px;
-    width: 31.4%; }
+    width: 31.4%;
+    font-size: 100px;
+    text-align: center; }
   .contenedor .medio {
     box-sizing: border-box;
     float: left;
