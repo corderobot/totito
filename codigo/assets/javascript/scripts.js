@@ -76,9 +76,9 @@ function revisar(){
 			ganador = 0;
 			for(o = 0; o < 3; o++){
 				if (conta) {
-					ganador += totito[i][o];
+					ganador += totito[i][o]; // Se revsa si hay un ganador vertical
 				}else{
-					ganador += totito[o][i];
+					ganador += totito[o][i]; 
 				};
 				felicidades(ganador); // Se entra a la funcion para conocer si hay un ganador
 			};
@@ -86,14 +86,14 @@ function revisar(){
 	};
 	o = 0;
 	ganador = 0;
-	for (var i = 0; i < 3; i++) { 
+	for (var i = 0; i < 3; i++) {  // Se revisa si hay un ganador en diagonal
 		ganador += totito[i][o];
 		felicidades(ganador); // Se entra a la funcion para conocer si hay un ganador
 		o++;
 	};
 	o = 0;
 	ganador = 0;
-	for (var i = 2; i > -1; i--) {
+	for (var i = 2; i > -1; i--) {  // Se revisa si hay un ganador en diagonal
 		ganador += totito[i][o];
 		felicidades(ganador); // Se entra a la funcion para conocer si hay un ganador
 		o++; 
